@@ -1,6 +1,6 @@
-<!-- <style>
+<style>
 @import '../css/vue-select.css';
-</style> -->
+</style>
 
 <template>
   <div :dir="dir" class="v-select" :class="stateClasses" ref="parent_holder">
