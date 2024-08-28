@@ -48,9 +48,7 @@ export default {
      * @returns {{top: (string|*|number), bottom: *}}
      */
     getDropdownViewport() {
-      return this.$refs.dropdownMenu
-        ? this.$refs.dropdownMenu.getBoundingClientRect()
-        : {
+      return this.$refs.dropdownMenu ? this.$refs.dropdownMenu.getBoundingClientRect() : {
             height: 0,
             top: 0,
             bottom: 0,

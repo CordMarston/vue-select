@@ -1,5 +1,4 @@
-:root,
-:host {
+:root {
     --vs-colors--lightest: rgba(60, 60, 60, 0.26);
     --vs-colors--light: rgba(60, 60, 60, 0.5);
     --vs-colors--dark: #333;
@@ -7,7 +6,6 @@
 
     /* Search Input */
     --vs-search-input-color: inherit;
-    --vs-search-input-bg: rgb(255, 255, 255);
     --vs-search-input-placeholder-color: inherit;
 
     /* Font */
