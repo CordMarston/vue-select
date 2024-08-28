@@ -1,1 +1,1 @@
-Adjusted the dropdown to work better.
+Adjusted the dropdown to work better. Include Dist.
