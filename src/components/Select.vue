@@ -1109,7 +1109,7 @@ export default {
         left,
         width,
       } = this.$refs.parent_holder.getBoundingClientRect()
-      this.actualWidth = width.toFixed(1);
+      this.actualWidth = width.toFixed(2);
       const targetIsNotSearch = event.target !== this.searchEl
       if (targetIsNotSearch) {
         event.preventDefault()

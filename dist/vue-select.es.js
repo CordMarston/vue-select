@@ -556,7 +556,7 @@ https://vue-select.org/api/props.html#getoptionkey`, e, t);
         left: n,
         width: l
       } = this.$refs.parent_holder.getBoundingClientRect();
-      this.actualWidth = l.toFixed(1);
+      this.actualWidth = l.toFixed(2);
       const i = e.target !== this.searchEl;
       i && e.preventDefault();
       const g = [
